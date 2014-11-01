@@ -45,13 +45,13 @@ $endif$
 <h1 class="title">$title$</h1>
 
 <p class="author">
-$for(author)$
-$author.name$<sup>$author.affiliation$</sup>$sep$,  
+$for(authors)$
+$authors.name$<sup>$authors.affiliation$</sup>$sep$,  
 $endfor$
 </p>
 
-$for(affiliation)$
-<p class="affilation"><sup>$affiliation.id$</sup><em>$affiliation.address$</em></p>
+$for(affiliations)$
+<p class="affilation"><sup>$affiliations.id$</sup><em>$affiliations.address$</em></p>
 $endfor$
 
 
