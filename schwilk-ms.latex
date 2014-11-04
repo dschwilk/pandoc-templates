@@ -2,6 +2,7 @@
 % for author and affiliations
 \usepackage{authblk}
 \usepackage{fullpage}
+\usepackage{booktabs}
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
