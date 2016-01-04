@@ -3,6 +3,7 @@
 \usepackage{authblk}
 \usepackage{fullpage}
 \usepackage{booktabs}
+\def\tightlist{}
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
